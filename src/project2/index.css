@@ -1,0 +1,94 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* General styles for all pages */
+h1, h2, h3 {
+    text-align: center;
+}
+
+input {
+    margin: 10px 0;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 300px; /* Fixed width for inputs */
+}
+
+button {
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 150px; /* Fixed width for buttons */
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Styles for Login Page */
+.login-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+  
+}
+
+
+/* Styles for Configure Page */
+.configure-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.list-container {
+    width: 80%; /* Width for tables */
+    text-align: center; /* Center text */
+}
+
+table {
+    width: 100%;
+    margin: 20px 0;
+    border-collapse: collapse; /* Merge borders */
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: left; /* Align text to the left */
+}
+
+th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2; /* Zebra striping */
+}
+
+/* Styles for Payment Page */
+.payment-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Full viewport height */
+}
+
+.payment-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
